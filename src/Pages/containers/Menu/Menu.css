@@ -1,0 +1,350 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Menu {
+  z-index: 999999;
+  -webkit-box-shadow: 10px 6px 30px 10px rgba(0, 0, 0, 0.555);
+          box-shadow: 10px 6px 30px 10px rgba(0, 0, 0, 0.555);
+  position: fixed;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 29px;
+  height: 100vh;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background: #192127;
+  overflow: hidden;
+  padding: 9px;
+}
+
+.Menu .menu-btn {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.Menu .menu-btn i {
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+
+.Menu .menu-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.Menu .menu-links .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.Menu .menu-links .link a {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 20px;
+  letter-spacing: 1.2px;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.Menu .menu-links .link a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background-color: #3d84b8;
+  -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.Menu .menu-links .link a:hover {
+  color: #3d84b8;
+}
+
+.Menu .menu-links .link a:hover::before {
+  width: 100%;
+}
+
+.Menu .menu-links .link .active {
+  color: #3d84b8;
+}
+
+.Menu .menu-links .link .active::before {
+  width: 100%;
+}
+
+.Menu .menu-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+}
+
+.Menu .menu-footer i {
+  color: #fff;
+  font-size: 12px;
+  padding-left: 1px;
+  padding-right: 10px;
+  color: #fff;
+}
+
+.Menu .menu-footer span {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.Menu:hover {
+  width: 260px;
+}
+
+.Menu:hover .menu-btn i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.Responsive-menu {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .Menu .menu-links .link a {
+    letter-spacing: 0;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .Menu .menu-links .link i {
+    font-size: 10px;
+  }
+  .Menu .menu-footer i {
+    font-size: 10px;
+    padding-right: 14px;
+  }
+  .Menu .menu-footer p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 679px) {
+  .Menu {
+    display: none;
+  }
+  .Responsive-menu {
+    z-index: 9999999999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 33px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background: #192127;
+    overflow: hidden;
+    padding: 9px;
+  }
+  .Responsive-menu .menu-btn {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .Responsive-menu .menu-btn i {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    position: absolute;
+    right: 0;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .Responsive-menu .menu-btn .clicked {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  .Responsive-menu .menu-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .Responsive-menu .menu-links .link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 18px 0px;
+  }
+  .Responsive-menu .menu-links .link a {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+    letter-spacing: 1.2px;
+    position: relative;
+  }
+  .Responsive-menu .menu-links .link a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    height: 2px;
+    background-color: #3d84b8;
+    -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .Responsive-menu .menu-links .link a:hover {
+    color: #3d84b8;
+  }
+  .Responsive-menu .menu-links .link a:hover::before {
+    width: 100%;
+  }
+  .Responsive-menu .menu-links .link i {
+    font-size: 12px;
+    padding-left: 1.5px;
+    padding-right: 7px;
+    color: #fff;
+  }
+  .Responsive-menu .menu-links .link a:hover {
+    color: #3d84b8;
+  }
+  .Responsive-menu .menu-links .link .active {
+    color: #3d84b8;
+  }
+  .Responsive-menu .menu-links .link .active::before {
+    width: 100%;
+  }
+  .Responsive-menu .menu-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    white-space: nowrap;
+    margin-bottom: 10px;
+  }
+  .Responsive-menu .menu-footer i {
+    color: #fff;
+    font-size: 12px;
+    padding-left: 1.5px;
+    padding-right: 10px;
+    color: #fff;
+  }
+  .Responsive-menu .menu-footer p {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .show {
+    height: 100vh;
+  }
+}
+/*# sourceMappingURL=Menu.css.map */

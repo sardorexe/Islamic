@@ -1,0 +1,30 @@
+$montserrat: "Montserrat", sans-serif;
+$poppins: "Poppins", sans-serif;
+$opensans: "Open Sans", sans-serif;
+$mono: "Ubuntu Mono", monospace;
+$tajawal: "Tajawal", sans-serif;
+
+
+
+
+.Ayahs {
+  background: #151515;
+  color: #fff;
+  .container {
+    .start {
+      text-align: center;
+      padding-top: 50px;
+      .surah-name {
+        color: #3d84b8;
+        font-family: $montserrat;
+        font-weight: 800;
+        font-size: 20px;
+      }
+      .surah-english {
+        font-weight: 800;
+        font-family: $tajawal;
+        font-size: 50px;
+      }
+    }
+  }
+}

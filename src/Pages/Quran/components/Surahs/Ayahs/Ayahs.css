@@ -1,0 +1,23 @@
+.Ayahs {
+  background: #151515;
+  color: #fff;
+}
+
+.Ayahs .container .start {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.Ayahs .container .start .surah-name {
+  color: #3d84b8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.Ayahs .container .start .surah-english {
+  font-weight: 800;
+  font-family: "Tajawal", sans-serif;
+  font-size: 50px;
+}
+/*# sourceMappingURL=Ayahs.css.map */
