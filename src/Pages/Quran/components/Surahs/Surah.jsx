@@ -21,7 +21,7 @@ function Surah() {
           <button onClick={toggleClick} className="btn dropdown-btn">Suralar <i class={`fas ${click ? "fa-chevron-up" : "fa-chevron-down" }`}></i></button>
           <div className={`dropdown-surahs ${click ? "open" : ""}`}>
             {data.map((surah) => (
-              <DropdownSurahs surahName={surah.englishName} />
+              <DropdownSurahs surahNumber={surah.number} surahName={surah.englishName} />
             ))}
           </div>
         </div>

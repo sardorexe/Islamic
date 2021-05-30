@@ -1,0 +1,26 @@
+$montserrat: "Montserrat", sans-serif;
+$poppins: "Poppins", sans-serif;
+$opensans: "Open Sans", sans-serif;
+$mono: "Ubuntu Mono", monospace;
+$tajawal: "Tajawal", sans-serif;
+$pcolor: #3d84b8;
+
+.Buxoriy {
+  background-color: #1921273a;
+  padding: 35px 45px 40px 45px;
+  .about-bukhariy {
+    .about-title {
+      color: $pcolor;
+      font-family: $montserrat;
+      font-weight: 700;
+    }
+    .about-content {
+      color: rgba(255, 255, 255, 0.719);
+    }
+  }
+}
+
+.start-wrappers {
+  color: $pcolor;
+  font-family: $montserrat;
+}

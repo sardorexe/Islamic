@@ -1,1 +1,27 @@
-/* No CSS *//*# sourceMappingURL=Wrapper.css.map */
+.content-wrapper {
+  border-bottom: 1px solid #ffffff1e;
+}
+
+.content-wrapper .wrapper-title {
+  margin: 20px 0px;
+}
+
+.content-wrapper .wrapper-title .title {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.content-wrapper .wrapper-title .hadis-section {
+  color: rgba(255, 255, 255, 0.589);
+  background-color: #2b5d8150;
+  font-weight: 400;
+  padding: 0px 3px;
+}
+
+.content-wrapper .wrapper-content {
+  color: rgba(255, 255, 255, 0.719);
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=Wrapper.css.map */

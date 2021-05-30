@@ -3,3 +3,28 @@ $poppins: "Poppins", sans-serif;
 $opensans: "Open Sans", sans-serif;
 $mono: "Ubuntu Mono", monospace;
 $tajawal: "Tajawal", sans-serif;
+$pcolor: #3d84b8;
+$contentcolor: rgba(255, 255, 255, 0.719);
+
+.content-wrapper {
+  .wrapper-title {
+    margin: 20px 0px;
+    .title {
+      color: #fff;
+      font-family: $poppins;
+      font-weight: 600;
+      font-size: 24px;
+    }
+    .hadis-section {
+      color: rgba(255, 255, 255, 0.589);
+      background-color: #2b5d8150;
+      font-weight: 400;
+      padding: 0px 3px;
+    }
+  }
+  border-bottom: 1px solid #ffffff1e;
+  .wrapper-content {
+    color: $contentcolor;
+    padding-bottom: 15px;
+  }
+}

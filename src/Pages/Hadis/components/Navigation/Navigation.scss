@@ -1,0 +1,29 @@
+$montserrat: "Montserrat", sans-serif;
+$poppins: "Poppins", sans-serif;
+$opensans: "Open Sans", sans-serif;
+$mono: "Ubuntu Mono", monospace;
+$tajawal: "Tajawal", sans-serif;
+$pcolor: #3d84b8;
+
+.content-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #192127;
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px 0px #050708;
+  .navigation-link {
+    padding: 10px 20px;
+    color: #fff;
+    font-family: $poppins;
+    font-size: 18px;
+    font-weight: 4 00;
+    letter-spacing: 1.2px;
+    &:hover {
+      color: $pcolor;
+    }
+  }
+  .active {
+    color: $pcolor;
+  }
+}

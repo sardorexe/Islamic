@@ -1,8 +1,14 @@
 import React from "react";
 import Menu from "../containers/Menu/Menu";
 import About from "./components/About";
-import Wrapper from "./components/Wrapper";
+import Navigation from "./components/Navigation/Navigation";
+import Wrapper from "./components/Wrappers/WrapperSimple";
+import Buxoriy from "./pages/Buxoriy/Buxoriy";
+import Termiziy from "./pages/Termiziy/Termiziy";
+import Other from "./pages/Other/Other";
+
 import "./Hadis.css";
+import Content from "./components/Content/Content";
 
 function Title() {
   return (
@@ -43,12 +49,10 @@ function Hadis() {
             <Title />
           </h1>
         </div>
-        <div className="About row">
+        <div className="about row">
           <About />
         </div>
-        <div className="Content row">
-          <Wrapper />
-        </div>
+        <Content />
       </div>
     </div>
   );

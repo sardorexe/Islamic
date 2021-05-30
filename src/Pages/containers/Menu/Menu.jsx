@@ -19,13 +19,13 @@ function Menu() {
             <NavLink to="/hadis">HADIS</NavLink>
           </span>
           <span className="link">
-            <NavLink to="/saval">SAVOL JAVOBLAR</NavLink>
+            <NavLink to="/saval">IBODAT</NavLink>
           </span>
           <span className="link">
             <NavLink to="/gunah">GUNOHI KABIRALAR</NavLink>
           </span>
           <span className="link">
-            <NavLink to="/rumiy">JALOLIDDIN RUMIY</NavLink>
+            <NavLink to="/rumiy">SAVOL-JAVOBLAR</NavLink>
           </span>
         </div>
         <div className="menu-footer">
@@ -47,13 +47,13 @@ function Menu() {
             <NavLink to="/hadis">HADIS</NavLink>
           </span>
           <span className="link">
-            <NavLink to="/saval">SAVOL JAVOBLAR</NavLink>
+            <NavLink to="/saval">IBODAT</NavLink>
           </span>
           <span className="link">
             <NavLink to="/gunah">GUNOHI KABIRALAR</NavLink>
           </span>
           <span className="link">
-            <NavLink to="/rumiy">JALOLIDDIN RUMIY</NavLink>
+            <NavLink to="/rumiy">SAVOL-JAVOBLAR</NavLink>
           </span>
         </div>
         <div className="menu-footer">

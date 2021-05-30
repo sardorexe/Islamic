@@ -12,6 +12,9 @@ $pcolor: #3d84b8;
         font-family: $tajawal;
       }
     }
+    .content {
+      padding-bottom: 40px;
+    }
   }
 }
 
@@ -42,7 +45,7 @@ svg text {
 @media (max-width: 1200px) {
   .Hadis {
     .container {
-      .About {
+      .about {
         display: flex;
         flex-direction: column;
         align-items: center;

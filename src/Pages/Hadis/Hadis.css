@@ -2,6 +2,10 @@
   font-family: "Tajawal", sans-serif;
 }
 
+.Hadis .container .content {
+  padding-bottom: 40px;
+}
+
 svg text {
   font-family: "Tajawal", sans-serif;
   letter-spacing: 2px;
@@ -40,7 +44,7 @@ svg text {
 }
 
 @media (max-width: 1200px) {
-  .Hadis .container .About {
+  .Hadis .container .about {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -52,7 +56,7 @@ svg text {
         -ms-flex-align: center;
             align-items: center;
   }
-  .Hadis .container .About .about-hadis {
+  .Hadis .container .about .about-hadis {
     margin-top: 20px;
   }
 }
